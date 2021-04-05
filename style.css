@@ -1,0 +1,157 @@
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --primary-color: aqua;
+  --secondary-color: #137083;
+  --accent-color: #fae3e3;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 70px;
+  font-family: var(--font);
+  text-align: center;
+}
+
+h2 {
+  margin: 5;
+  font-size: 35px;
+  font-family: var(--font);
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--font);
+  text-align: center;
+}
+
+p {
+  font-family: var(--font);
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 20px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font);
+}
+
+.navigation-buttons a {
+  margin: 30px;
+}
+
+.about-button {
+  background-color: var(--primary-color);
+  color: black;
+  border: 1px solid var(--primary-color);
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.about-button:hover {
+  color: #3d0240;
+  text-decoration: underline;
+}
+
+.about-button:visited {
+  color: var(--secondary-color);
+}
+
+.contact-button {
+  background-color: var(--accent-color);
+  color: black;
+  border: 1px solid var(--primary-color);
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-button:hover {
+  color: #3d0240;
+  text-decoration: underline;
+}
+
+.contact-button:visited {
+  color: var(--secondary-color);
+}
+
+.homepage-link {
+  text-align: center;
+  color: black;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+}
+
+.homepage-link:hover {
+  color: #3d0240;
+  text-decoration: underline;
+}
+
+.homepage-link:visited {
+  color: var(--secondary-color);
+}
+
+.paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.paragraphs p {
+  margin: 20px;
+  text-align: center;
+}
+
+.email-me {
+  text-decoration: none;
+}
+
+.email-me:hover {
+  color: #3d0240;
+  text-decoration: underline;
+}
+
+.email-me:visited {
+  color: var(--secondary-color);
+}
+
+.image-fluid {
+  max-width: 80%;
+}
+
+.primary-link {
+  border: 1px solid;
+  display: block;
+  background-color: var(--primary-color);
+  color: black;
+  border: 1px solid var(--primary-color);
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
