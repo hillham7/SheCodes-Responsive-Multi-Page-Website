@@ -24,8 +24,8 @@ h1 {
 }
 
 h2 {
-  margin: 5;
-  font-size: 35px;
+  margin-top: 50px;
+  font-size: 25px;
   font-family: var(--font);
   text-align: center;
 }
